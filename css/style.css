@@ -68,7 +68,10 @@ img {
 
 
 .menu-container {
-    /* border: 1px solid red; */
+    border: 1px solid red;
+
+    position: relative;
+    top: 30px;
     padding: 2px;
 }
 
