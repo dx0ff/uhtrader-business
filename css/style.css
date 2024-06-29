@@ -53,6 +53,12 @@ img {
     padding: 2px;
 }
 
+/* select the button :tag  */
+.contact-container button {
+    padding: 5px;
+    background: #000000;
+    color: #EEE;
+}
 
 
 
@@ -80,6 +86,7 @@ main {
 
 }
 
+
 /* select preamble inside main :class */
 .preamble {
     display: flex;
@@ -89,6 +96,8 @@ main {
     width: 90%;
     height: 30vh;
 
+    margin-bottom: 10px;
+
     /* border: 2px solid red; for debugging */
 }
 
@@ -96,7 +105,8 @@ main {
 /* select .first-preamble-container inside (main/preamble) :class */
 .first-preample-container {
     align-self: center;
-
+    
+    border: 1px solid red;
 
 
 }
@@ -111,9 +121,16 @@ main {
 }
 
 
+
+/* 
+    style for main ends here  
+    style for footer begins here  
+*/
+
+
 /* select the footer  :tag */
 footer {
-    background-color: #afcaa8;
+    background-color: #b3d6ab;
     height: 15vh;
 
     display: flex;
@@ -122,9 +139,27 @@ footer {
 }
 
 
+/* 
+    style for footer ends here
+    animation starts here  
+*/
 
 
 
 
+/* Animation for the page starts here */
 
-Animation for the page starts here
+header:hover {
+    background-color: #90a39d;
+
+    transform: translateY(-5px);
+    box-shadow: 1px 8px 8px #060707;
+
+    font-size: large;
+}
+
+main:hover {
+    background-color: #869782;
+    padding: 2px;
+
+}
