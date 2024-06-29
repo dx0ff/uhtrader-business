@@ -6,6 +6,7 @@
     transition: all ease-in-out 250ms;
 
     /* border: 1px solid red; for debugging */
+    
 }
 
 /* 
@@ -55,12 +56,19 @@ img {
 /* Select the individual list item :tag */
 .menu-container li {
     display: inline-block;
-    margin: 4px;
+    margin: 8px;
+
+    font-size: 17px;
+}
+
+.menu-container li a {
+    text-decoration: none;
+    color: inherit;
 }
 
 
 .menu-container {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 2px;
 }
 
@@ -70,6 +78,10 @@ img {
     padding: 5px;
     background: #000000;
     color: #EEE;
+
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
 }
 
 
@@ -118,7 +130,7 @@ main {
 .first-preamble-container {
     align-self: center;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 
 }
@@ -131,7 +143,7 @@ main {
 
     font-size: small;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 
@@ -176,10 +188,30 @@ header:hover {
 header:hover button:hover {
     padding: 12px;
     font-weight: 800;
+
+    box-shadow: 3px 3px 5px black;
+    color: black;
+    background: #EEE;
+}
+
+header:hover .menu-container:hover{
+    font-size: 22px;
 }
 
 
+.menu-container li a:hover{
+    padding: 3px;
+    box-shadow: 1px 2px 2px #000000;
+    
+    font-size: 20px;
+}
 
+.logo-container:hover,
+.logo-container:hover img{
+    transform: translateX(5px);
+    width: 70px;
+    height: 100px;
+}
 
 main:hover {
     background-color: #869782;
@@ -192,7 +224,7 @@ main:hover .first-preamble-container:hover {
 }
 
 .first {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position: relative;
 
     top: 15px
