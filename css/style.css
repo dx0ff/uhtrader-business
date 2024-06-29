@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+/* universal selector style ends here  */
+/* style for header starts here  */
+
 /* Style the header :tag */
 header {
     display: flex;
@@ -11,7 +14,6 @@ header {
     height: 150px;
 
     background-color: #B6C9C3;
-    /* justify-content: space-around; */
 }
 
 /* image selected :tag  */
@@ -46,6 +48,16 @@ img {
     margin: 4px;
 }
 
+.menu-container {
+    border: 1px solid red;
+    padding: 2px;
+}
+
+
+
+
+/* style for header ends here  */
+/* style for main begins here  */
 
 /* select main :tag  */
 main {
@@ -62,7 +74,7 @@ main {
     display: flex;
     width: 100%;
 
-
+    align-items: center;
     flex-direction: column;
 
 
@@ -72,12 +84,12 @@ main {
 .preamble {
     display: flex;
     justify-content: center;
-    
+
 
     width: 90%;
     height: 30vh;
 
-    border: 2px solid red;
+    /* border: 2px solid red; for debugging */
 }
 
 
@@ -98,7 +110,21 @@ main {
     font-size: small;
 }
 
-footer{
-    background-color: #b2cfab;
+
+/* select the footer  :tag */
+footer {
+    background-color: #afcaa8;
     height: 15vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
+
+
+
+
+
+Animation for the page starts here
