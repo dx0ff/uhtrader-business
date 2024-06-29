@@ -244,6 +244,7 @@ main:hover .second:hover .second-preamble-container:hover {
 
 footer:hover {
     background-color: #88a382;
+    font-size: 20px;
 }
 
 footer:hover strong {
