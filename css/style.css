@@ -2,10 +2,16 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+
+
+    /* border: 1px solid red; for debugging */
 }
 
-/* universal selector style ends here  */
-/* style for header starts here  */
+/* 
+    universal selector style ends here  
+    style for header starts here  
+*/
+
 
 /* Style the header :tag */
 header {
@@ -16,6 +22,7 @@ header {
     background-color: #B6C9C3;
 }
 
+
 /* image selected :tag  */
 img {
     width: 50px;
@@ -23,6 +30,7 @@ img {
     padding: 2px;
 
 }
+
 
 /* header container selected :class */
 .header-container {
@@ -42,16 +50,19 @@ img {
 
 }
 
+
 /* Select the individual list item :tag */
 .menu-container li {
     display: inline-block;
     margin: 4px;
 }
 
+
 .menu-container {
     border: 1px solid red;
     padding: 2px;
 }
+
 
 /* select the button :tag  */
 .contact-container button {
@@ -103,21 +114,23 @@ main {
 
 
 /* select .first-preamble-container inside (main/preamble) :class */
-.first-preample-container {
+.first-preamble-container {
     align-self: center;
-    
+
     border: 1px solid red;
 
 
 }
 
 /* select .second-preamble-container inside (main/preamble) :class  */
-.second-preample-container {
+.second-preamble-container {
     align-self: flex-end;
     position: relative;
     bottom: 20px;
 
     font-size: small;
+
+    border: 1px solid red;
 }
 
 
@@ -156,10 +169,50 @@ header:hover {
     box-shadow: 1px 8px 8px #060707;
 
     font-size: large;
+    /* font-weight: 700; */
 }
+
+header:hover button:hover {
+    padding: 12px;
+    font-weight: 800;
+}
+
+
+
 
 main:hover {
     background-color: #869782;
     padding: 2px;
 
+}
+
+main:hover .first-preamble-container:hover {
+    font-size: 1.5em;
+}
+
+.first {
+    border: 2px solid red;
+    position: relative;
+
+    top: 15px
+}
+
+main:hover .first:hover,
+main:hover .second:hover {
+    transform: translateY(-12px);
+
+}
+
+main:hover .first:hover .second-preamble-container:hover,
+main:hover .second:hover .second-preamble-container:hover {
+    transform: translateY(-12px);
+    font-size: large;
+}
+
+footer:hover {
+    background-color: #88a382;
+}
+
+footer:hover strong {
+    color: red
 }
