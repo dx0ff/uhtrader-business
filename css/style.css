@@ -124,7 +124,7 @@ main {
     height: 30vh;
 
     margin-bottom: 10px;
-
+    border: 2px solid red;
     /* border: 2px solid red; for debugging */
 }
 
@@ -132,8 +132,10 @@ main {
 /* select .first-preamble-container inside (main/preamble) :class */
 .first-preamble-container {
     align-self: center;
-
-    /* border: 1px solid red; */
+    /* display: flex; */
+    flex-grow: 1;
+    flex-basis: auto;
+    border: 1px solid red;
 
 
 }
@@ -141,6 +143,8 @@ main {
 /* select .second-preamble-container inside (main/preamble) :class  */
 .second-preamble-container {
     align-self: flex-end;
+    flex-grow: 1;
+    flex-basis: auto;
     position: relative;
     bottom: 20px;
 
@@ -149,6 +153,11 @@ main {
     /* border: 1px solid red; */
 }
 
+@media (min-width:700px) {
+    .first-preamble-container {
+        text-align: center;
+    }
+}
 
 
 /* 
