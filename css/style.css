@@ -124,7 +124,7 @@ main {
     height: 30vh;
 
     margin-bottom: 10px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* border: 2px solid red; for debugging */
 }
 
@@ -135,7 +135,7 @@ main {
     /* display: flex; */
     flex-grow: 1;
     flex-basis: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 
 }
