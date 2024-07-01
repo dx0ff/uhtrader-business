@@ -170,25 +170,41 @@ main {
 @media (min-width:1020px) {
     .first-preamble-container {
         text-align: center;
-        font-size: 30px;
+        font-size: 25px;
     }
 
 
 }
 
+/* Mobile Users Experience */
 @media (max-width: 400px) {
     .menu-container {
         border: none;
     }
 
-    .preamble:hover {
+    .preamble {
         font-size: 0.7em;
     }
 }
 
+
 @media (min-width: 1350px) {
     .menu-container li a {
         padding: 25px;
+    }
+
+
+
+    main:hover .second-preamble-container{
+        font-size: 22px;
+    }
+
+    main:hover .first-preamble-container{
+        font-size: 27px;
+    }
+
+    .preamble .second-preamble-container:hover p{
+        font-size: 27px;
     }
 }
 
@@ -197,6 +213,7 @@ main {
         font-size: large;
     }
 }
+
 
 /* 
     style for main ends here  
