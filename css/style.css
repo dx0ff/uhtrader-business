@@ -180,14 +180,23 @@ main {
     .menu-container {
         border: none;
     }
+
+    .preamble:hover {
+        font-size: 0.7em;
+    }
 }
 
 @media (min-width: 1350px) {
-    .menu-container li a{
+    .menu-container li a {
         padding: 25px;
     }
 }
 
+@media (min-width: 1300px) {
+    .preamble:hover .second-preamble-container {
+        font-size: large;
+    }
+}
 
 /* 
     style for main ends here  
